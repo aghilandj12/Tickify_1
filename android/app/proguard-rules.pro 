@@ -1,0 +1,12 @@
+# --- Razorpay specific rules ---
+# Keep all classes, interfaces, and annotations in Razorpay SDK
+-keep class com.razorpay.** { *; }
+-keep interface com.razorpay.** { *; }
+-keep @interface com.razorpay.** { *; }
+
+# Suppress R8 warnings for missing annotations
+-dontwarn proguard.annotation.Keep
+-dontwarn proguard.annotation.KeepClassMembers
+
+# Suppress internal Razorpay warnings
+-dontwarn com.razorpay.**

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "304978353219",
+    "project_id": "tickifyhstl",
+    "storage_bucket": "tickifyhstl.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304978353219:android:ce0209262e61171950c8f6",
+        "android_client_info": {
+          "package_name": "com.example.tickify_hstl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyP9gIdm0FTDLtHv2nE_U1Q6_w8rrFbNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

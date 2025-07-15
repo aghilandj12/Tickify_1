@@ -3,7 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'admin_dashboard_page.dart';
 import 'home_page.dart';
 import 'signup_page.dart';
-import 'admin_dashboard_page.dart'; // ← create this page
+import 'admin_dashboard_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -33,7 +33,6 @@ class _LoginPageState extends State<LoginPage> {
     setState(() => isLoading = true);
 
     try {
-      // 🔐 Admin login check
       if (phone == '1223334444' && password == '1234567890') {
         Navigator.pushReplacement(
           context,

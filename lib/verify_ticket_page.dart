@@ -55,7 +55,6 @@ class _VerifyTicketPageState extends State<VerifyTicketPage> {
         return;
       }
 
-      // Show confirmation dialog
       showDialog(
         context: context,
         builder: (_) => AlertDialog(

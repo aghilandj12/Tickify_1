@@ -66,9 +66,7 @@ class _HomePageState extends State<HomePage> {
         onTap: (index) => setState(() => _currentIndex = index),
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
-          BottomNavigationBarItem(icon: Icon(Icons.notifications), label: 'Notify'),
-        ],
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),],
       ),
     );
   }
@@ -91,10 +89,7 @@ class _HomeMainButtons extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Text(
-            "Hi $userName 👋",
-            style: const TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
-          ),
+
           const SizedBox(height: 30),
           _buildHomeButton(
             context,

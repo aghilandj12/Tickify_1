@@ -10,7 +10,6 @@ void main() async {
   );
   runApp(const TickifyApp());
 }
-
 class TickifyApp extends StatelessWidget {
   const TickifyApp({super.key});
 

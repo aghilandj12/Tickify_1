@@ -22,7 +22,7 @@ class _BookingFormPageState extends State<BookingFormPage> {
   final _formKey = GlobalKey<FormState>();
   final _nameController = TextEditingController();
   final _rollController = TextEditingController();
-  final _phoneController = TextEditingController(); // ✅ For manual input
+  final _phoneController = TextEditingController();
   int _ticketCount = 1;
   String? _userPhone = 'unknown';
 

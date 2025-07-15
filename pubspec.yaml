@@ -20,6 +20,7 @@ dependencies:
   qr_flutter:
   uuid:
   qr_code_scanner:
+  url_launcher:
 
 dev_dependencies:
   flutter_test:
